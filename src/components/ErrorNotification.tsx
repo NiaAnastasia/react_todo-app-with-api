@@ -1,8 +1,9 @@
 import React from 'react';
 import cn from 'classnames';
+import { ErrorMessage } from '../types/ErrorMessage';
 
 type Props = {
-  message: string;
+  message: ErrorMessage | null;
   onClose: () => void;
 };
 
